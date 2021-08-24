@@ -1,0 +1,10 @@
+.icon {
+  color: #fff;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+
+  &--next {
+    transform: rotate(180deg);
+  }
+}

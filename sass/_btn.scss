@@ -1,0 +1,24 @@
+.btn {
+  width: 70px;
+  height: 50px;
+  background-color: gold;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: all .5s;
+
+  &:hover {
+    background-color: whitesmoke;
+
+    & .icon {
+      color: gold;
+    }
+  }
+
+  &:active {
+    background-color: green;
+    transition: all .1s;
+  }
+}
